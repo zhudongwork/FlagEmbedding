@@ -71,5 +71,9 @@ AUTO_RERANKER_MAPPING = OrderedDict([
         "jinaai/jina-reranker-v1-turbo-en",
         RerankerConfig(FlagReranker)
     ),
+    (
+        "bce-reranker-base_v1",
+        RerankerConfig(FlagReranker)
+    ),
     # TODO: Add more models.
 ])
